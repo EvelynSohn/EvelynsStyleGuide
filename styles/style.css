@@ -1,0 +1,301 @@
+/* Header Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Quicksand:wght@300&display=swap');
+
+.header {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+body {
+    background-image: url(../images/whitestairs.jpg);
+    background-color: antiquewhite;
+    min-height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    kerning: 1%;
+    padding-left: 32px;
+    padding-right: 32px;
+
+}
+
+#pageTopic {
+    text-align: right;
+    font-weight: 400;
+    font-size: 60px;
+    font-family: 'Quicksand', sans-serif;
+    opacity: 90%;
+    kerning: 1%;
+}
+
+/* Primary Color */
+.colorContainer {
+    display: inline-block;
+    margin: 16px;
+}
+
+
+
+.swatch {
+    /* height: 120px;
+    width: 120px;
+    border: 1px transparent #190c0a;*/
+
+    border-radius: 10px;
+    border: 1px solid #637266;
+    padding: 16px;
+    width: 90px;
+    height: 100px;
+}
+
+.hexCode {
+    padding: 4px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px transparent #190c0a;
+    border-top: none;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+
+}
+
+.sage {
+    background-color: #c0c9c2;
+}
+
+.mutedOlive {
+    background-color: #868e85;
+}
+
+.oliveGreen {
+    background-color: #637266;
+}
+
+.bone {
+    background-color: #e2e2d1;
+}
+
+.white {
+    background-color: #ffffff;
+}
+
+.manilla {
+    background-color: #f8e2af;
+}
+
+.lightolive {
+    background-color: #a8ad79;
+}
+
+.green {
+    background-color: #668C35;
+}
+
+.lightGreen {
+    background-color: #8ABE48;
+}
+
+.darkgreen {
+    background-color: #5a6a0c;
+}
+
+.brown {
+    background-color: #634c40;
+}
+
+.darkbrown {
+    background-color: #190c0a;
+}
+
+/* Typography CSS */
+.type_container {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: .17fr 1fr;
+    grid-gap: 1px;
+    text-align: left;
+}
+
+.large1 {
+    font-size: 60px;
+    margin-bottom: 15px;
+    margin-bottom: 15px;
+    margin-top: 0;
+    font-family: 'Quicksand', sans-serif;
+    opacity: 90%;
+
+}
+
+.large {
+    font-size: 60px;
+    margin-bottom: 15px;
+    margin-bottom: 15px;
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 70%;
+
+}
+
+
+
+.light {
+    font-weight: 300;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.semibold {
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.typography h1 {
+    font-weight: 400;
+    font-size: 60px;
+    font-family: 'Quicksand', sans-serif;
+    opacity: 90%;
+    kerning: 1%;
+    line-height: 125%;
+}
+
+.typography h2 {
+    font-weight: 600;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 75%;
+    line-height: 125%;
+}
+
+.typography h3 {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 70%;
+    line-height: 150%;
+}
+
+.typography h4 {
+    font-weight: 500;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 90%;
+    line-height: 150%;
+}
+
+.quicksand {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    opacity: 90%;
+    line-height: 150%;
+    kerning: 2%;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+    opacity: 90%;
+    font-weight: 400;
+    font-size: 24px;
+    opacity: 85%;
+    line-height: 150%;
+
+}
+
+#Content {
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 95%;
+    height: 600%;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+
+
+/* UI Elements */
+.button {
+    display: inline-block;
+    padding: 15px;
+    margin: 15px;
+    width: 150px;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+
+
+}
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buttonactive {
+    display: inline-block;
+    padding: 15px;
+    margin: 15px;
+    width: 150px;
+    font-size: 14px;
+
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.button1 {
+    background-color: white;
+    border: 2px solid #637266;
+    color: #637266;
+    font-weight: 600;
+}
+
+.button2 {
+    background-color: white;
+    border: 2px solid #668C35;
+    color: #668C35;
+    font-weight: 600;
+}
+
+
+
+.button1active {
+    background-color: #637266;
+}
+
+.button2active {
+    background-color: #668C35;
+}
+
+
+.sectionHead {
+    border-bottom: 8px solid #DDDDDD;
+    font-weight: 600;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 75%;
+    padding-top: 32;
+}
